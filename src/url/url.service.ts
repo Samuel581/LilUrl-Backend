@@ -53,6 +53,7 @@ export class UrlService {
       shortCode: shortLink.shortCode,
       originalUrl: shortLink.originalUrl,
       expiresAt: shortLink.expiresAt ?? undefined,
+      createdAt: shortLink.createdAt,
     };
   }
 
@@ -73,6 +74,7 @@ export class UrlService {
       shortCode: link.shortCode,
       originalUrl: link.originalUrl,
       expiresAt: link.expiresAt ?? undefined,
+      createdAt: link.createdAt,
     }));
   }
 
